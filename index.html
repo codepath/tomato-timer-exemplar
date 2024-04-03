@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Pomodoro Study Timer</title>
-	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
@@ -15,13 +13,12 @@
         <div id="buttons">
             <button id="study-btn">Study</button>
             <button id="break-btn">Break</button>
-            <button id="start-stop-btn" style="display: none;">Start/Stop</button> <!-- Hidden initially -->
+            <button id="start-stop-btn" style="display: none;">Start/Stop</button>
         </div>
         <div id="session-count">
-            Study Sessions: <span id="study-count">0</span>
-            Break Sessions: <span id="break-count">0</span>
+            <p>Study Sessions: <span id="study-count">0</span></p>
+            <p>Break Sessions: <span id="break-count">0</span></p>
         </div>
-        <!-- Stretch goal: Theme selector -->
         <div id="theme-selector" style="display: none;">
             <button id="light-theme">Light</button>
             <button id="dark-theme">Dark</button>

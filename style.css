@@ -27,7 +27,6 @@ body {
     margin-top: 20px;
 }
 
-/* Stretch goal: Add classes for light and dark themes */
 .light-theme {
     background-color: white;
     color: black;
